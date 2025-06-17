@@ -34,15 +34,18 @@ Extracted .csv files will appear in the downloads/ folder (ignored by Git).
 
 🐳 Project Structure
 
+
+```
 data-downloader/
-├── main.py                # Main Python script
-├── requirements.txt       # Python dependencies
-├── Dockerfile             # Docker build instructions
-├── docker-compose.yml     # Docker Compose setup
-├── .gitignore             # Excludes downloads and more
-├── .dockerignore          # Optimizes Docker build
-├── downloads/             # Downloaded CSVs (auto-generated)
-└── README.md              # You're here!
+├── main.py              # Main Python script
+├── requirements.txt     # Python dependencies
+├── Dockerfile           # Docker build instructions
+├── docker-compose.yml   # Docker Compose setup
+├── .gitignore           # Excludes downloads and more
+├── .dockerignore        # Optimizes Docker build
+├── downloads/           # Downloaded CSVs (auto-generated)
+└── README.md            # You're here!
+```
 
 📦 Dependencies
 
