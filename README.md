@@ -1,4 +1,4 @@
-# Exercise 1 – Divvy Trip Data Downloader
+# Divvy Trip Data Downloader
 
 This project downloads and extracts Divvy trip data CSV files using Python. It's fully containerized using Docker for consistent, reproducible execution.
 
