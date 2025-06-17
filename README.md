@@ -54,13 +54,13 @@ All Python dependencies are listed in requirements.txt. These are installed insi
 🧼 Clean Up
 
 To stop the container:
-
+```
 docker-compose down
-
+```
 To delete downloaded files (optional):
-
+```
 rm -rf downloads/
-
+```
 💡 Notes
 
 Invalid or broken URLs are handled gracefully with error messages.
